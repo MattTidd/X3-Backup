@@ -1,0 +1,2 @@
+KERNEL=="js0", ATTRS{idProduct}=="181c", ATTRS{idVendor}=="0079", MODE="0666"
+
