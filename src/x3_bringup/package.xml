@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>x3_bringup</name>
+  <version>1.0.0</version>
+  <description>allows for hardware communication and generation of topics</description>
+  <maintainer email="mtidd2@unb.ca">matthew tidd</maintainer>
+  <license>Apache License 2.0</license>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <depend>rclcpp</depend> <!--ROS2 client library for C-->
+  <depend>std_msgs</depend> <!--ROS2 wrappers for message types-->
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
