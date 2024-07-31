@@ -1,0 +1,14 @@
+network:
+  version: 2
+  renderer: NetworkManager
+
+  wifis:
+    wlan0:
+      dhcp4: no
+      addresses: [192.168.8.51/24]
+      gateway4: 192.168.8.1
+      nameservers:
+        addresses: [192.168.8.1]
+      access-points:
+        "GL-MT300N-V2-b1d":
+          password: "goodlife"
