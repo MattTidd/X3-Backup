@@ -20,7 +20,7 @@ find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)
 
 install(
-  DIRECTORY launch config maps scripts x3_slam
+  DIRECTORY launch config scripts x3_slam
   DESTINATION share/${PROJECT_NAME}
 )
 
