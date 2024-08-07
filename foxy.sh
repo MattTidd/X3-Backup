@@ -19,4 +19,4 @@ docker run -it \
 --device=/dev/ttyUSB1 \
 -p 9090:9090 \
 -p 8888:8888 \
-matttidd/arm64v8-ros-foxy:latest /bin/bash
+matttidd/foxy:latest /bin/bash
