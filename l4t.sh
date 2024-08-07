@@ -17,5 +17,5 @@ docker run -it \
 --runtime nvidia \
 -p 9090:9090 \
 -p 8888:8888 \
-nvcr.io/nvidia/l4t-jetpack:r36.3.0 /bin/bash
+matttidd/l4t:latest /bin/bash
 
